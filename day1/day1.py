@@ -29,18 +29,19 @@ erg = 0
 for i in range(len(l1)):
     erg += abs(l1[i] - l2[i])
 
-print(erg)
-
-str2 = ""
-for e in l2:
-    str2 += str(e) + " "
+print("The answer for Part 1 is:", erg)
 
 # -------------------------
 # Part 2
 
 erg2 = 0
+
+str2 = ""
+for e in l2:
+    str2 += str(e) + " "
+
 for i in range(len(l1)):
     fa = len(re.findall(str(l1[i]), str2))
     erg2 += l1[i] * fa
 
-print(erg2)
+print("The answer for Part 2 is:", erg2)

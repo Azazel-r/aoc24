@@ -36,7 +36,7 @@ for i in range(len(l)):
     if safe:
         erg += 1
 
-print(erg)
+print("The answer for Part 1 is:", erg)
 
 # -------------------------
 # Part 2
@@ -54,7 +54,7 @@ for i in range(len(l)):
     else:
         pass
 
-print(erg2)
+print("The answer for Part 2 is:", erg2)
 
 # -------------------------
 # used classes & functions

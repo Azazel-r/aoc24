@@ -25,7 +25,7 @@ erg = 0
 for i in range(len(mults)):
     erg += mult(mults[i])
 
-print(erg)
+print("The answer for Part 1 is:", erg)
 
 # -------------------------
 # Part 2
@@ -42,7 +42,7 @@ for i in range(len(mults2)):
         if enabled:
             erg2 += mult(mults2[i])
 
-print(erg2)
+print("The answer for Part 2 is:", erg2)
 
 # -------------------------
 # used classes & functions
