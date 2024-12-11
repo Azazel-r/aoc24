@@ -69,7 +69,7 @@ for i in range(len(linesDiag1)):
 
 #print (hzt, vtc, diag1, diag2)
 print("The answer for Part 1 is:", hzt+vtc+diag1+diag2)
-# i didnt use a single variable for debug purposes
+# i didnt use a singular variable as the sum for debug purposes
 
 #print(len(lines) == len(linesRot)) # True
 #print(len(linesDiag1) == len(linesDiag2)) # True
